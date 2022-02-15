@@ -1,0 +1,12 @@
+img{
+    width: 150px;
+    height: 150px;
+}
+
+body {
+    background-color: burlywood;
+}
+
+ol {
+    display: inline-block;
+}

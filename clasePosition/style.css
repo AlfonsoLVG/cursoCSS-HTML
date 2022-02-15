@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.parent{
+    margin: 0 auto;
+}
+
+div p {
+    text-align: center;
+}
+
+#one {
+    position: relative;
+    top: 30px;
+    background-color: red;
+    border: black 2px solid;
+    height: 70px;
+    width: 150px;
+    border-radius: 20px;
+    margin: 0 45%;
+    padding-top: 25px;
+}
+
+#two {
+    background-color: grey;
+    border: black 2px solid;
+    border-radius: 35px;
+    margin: 0 15%;
+    padding: 35px;
+}

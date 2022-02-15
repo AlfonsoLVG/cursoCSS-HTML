@@ -1,0 +1,34 @@
+/* Se indica los estilos de los elementos con esta clase */
+.main-nav {
+    margin-top: 10px;
+    list-style: none;
+    padding-left: 0px;
+    background-color: #13a4a4;   
+}
+
+.main-nav__item {
+    display: inline-block;
+}
+
+/* Se está especificando el estilo de un elemento que está dentro de la clase */
+.main-nav__item a {
+    color: white;
+    padding: 5px;
+    border-radius: 2px;
+    text-decoration: none;
+    /* background-color: rebeccapurple; */
+}
+
+/* Pseudoclases de los elementos */
+.main-nav__item a:hover {
+    color: blue;
+}
+
+.main-nav__item a:active {
+    color: red;
+}
+
+/* Pseudoelementos de las clases */
+.main-nav__item a::after {
+    content: " | ";
+}

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+</head>
+<body>
+    <!-- Existe la etiqueta form que explicitamente indica que el usuairo va a introducir datos -->
+    <!-- El atributo action indica a donde se envía la información (base de datos, etc) -->
+    <form action="">
+        <!-- La etiqueta label "encapsula" el tipo de entrada que se añade al formulario -->
+        <!-- El atributo 'for' debe de coincidir con el identificador de la etiqueta input -->
+        <label for="nombre">
+            <!-- span agrega un texto de ayuda a la entrada de datos -->
+            <span>Ingresa tu nombre</span>
+            <!-- El tipo 'text' es un cuadro de texto sencillo, se puede agregar un texto de ejemplo con el atributo 'placeholder' -->
+            <input type="text" name="" id="nombre" placeholder="Tu nombre">
+        </label>
+        <label for="inicio-platzi">
+            <span>¿Qué día iniciaste en Platzi?</span>
+            <!-- El tipo 'date' sirve para seleccionar fechas -->
+            <input type="date" name="" id="inicio-platzi">
+        </label>
+        <label for="horario">
+            <span>¿En que horario estudias?</span>
+            <!-- El tipo 'time' sirve para seleccionar una hora -->
+            <input type="time" name="" id="horario">
+        </label>
+    </form>
+</body>
+</html>

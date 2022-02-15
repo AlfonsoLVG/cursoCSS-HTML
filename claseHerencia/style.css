@@ -1,0 +1,9 @@
+html {
+    font-size: 75%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* Va a heredar las caracteristicas del elemento padre, si no hay algo inmediato, va a subir en la jerarquia hasta que encuentre el padre del objeto */
+h1 {
+    font-size: inherit;
+}
