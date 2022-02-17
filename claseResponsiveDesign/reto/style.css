@@ -1,0 +1,94 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    font-size: 65.5%;
+    background-image: url(./img/dmcvSE-background.jpg);
+    background-size: 100%;
+}
+
+p, h1 {
+    color: white;
+}
+
+p {
+    font-size: 1.6rem;
+}
+
+h1 {
+    font-size: 2.5rem;
+    padding-bottom: 50px;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 25px;
+}
+
+.c1, .c2, .c3, .c4 {
+    height: 200px;
+    width: 300px;
+    background-color: rgb(60, 128, 173);
+    border-radius: 10px;
+    margin: 20px;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+}
+
+.c1, .c2, .c3, .c4 .description {
+    font-size: 1.2rem;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.feature {
+    height: 75px;
+    width: 120px;
+    margin-bottom: 5%;
+}
+
+#f1 {
+    background-image: url(./img/beowulf.jpg);
+}
+
+#f2 {
+    background-image: url(./img/concentracion.jpg);
+}
+
+#f3 {
+    background-image: url(./img/mirage.jpg);
+}
+
+#f4 {
+    background-image: url(./img/yamato.jpg);
+}
+
+@media (min-width: 600px){
+    .c1, .c2, .c3, .c4 {
+        display: flex;
+        flex-direction: row;
+        height: 200px;
+        width: 300px;
+    }
+
+    .feature {
+        height: 75px;
+        width: 120px;
+        margin: 5%;
+    }
+
+    .cards {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+}
